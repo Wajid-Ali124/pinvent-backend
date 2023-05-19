@@ -16,7 +16,7 @@ const app = express()
 app.use(express.json())
 app.use(cookieParser())
 app.use(cors({
-    origin: ["http://localhost:3000", "https://pinvent-by-wajid.vercel.app"],
+    origin: ["http://localhost:3000", "https://pinvent-by-wajid-ali.vercel.app"],
     credentials: true
 }))
 app.use(bodyParser.json())
